@@ -1,0 +1,56 @@
+body{
+    background-image: url("egg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav{
+    background-color: #ffb703;
+    padding: 5px; /*نوار زرد چقدر باشد*/
+    width: 100%;
+    position:  fixed;
+    top: 0;
+    left: 0; /*بالا و کنار نوار را فیکس کردن*/
+    
+}
+
+li{
+    display: inline;
+    
+}
+
+
+/* خط زیرشون را برداشتیم */
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: #ffd700;
+    font-size: 40px;
+}
+
+h2{
+    color: #ff3333;
+    font-size: 30px;
+   
+}
+
+input{
+    color: white;
+    font-size: 32px;
+    background-color: green;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 8px; /*لبه های مستطیل*/
+}
+
+#in1{
+    color: white;
+    font-size: 32px;
+    background-color: gray;
+    border: none;
+    padding: 15px 50px;
+    border-style: 8px;
+}
